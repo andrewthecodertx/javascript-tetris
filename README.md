@@ -11,3 +11,7 @@ to get this done is to split up the code and make it more object oriented.
 
 I would also like to improve the scoring (to match the original) and
 create an API that stores high scores.
+
+## Controls
+
+Use the arrow keys or vim keys (h,j,l) to move and a,s to rotate.
