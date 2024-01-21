@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+#assets {
+    display: none;
+}
+
+#tetris {
+    background: no-repeat url('../img/tetris_nesbg.jpg');
+    display: flex;
+}
+
+
