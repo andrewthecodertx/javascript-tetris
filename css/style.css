@@ -7,8 +7,24 @@
 }
 
 #tetris {
-    background: no-repeat url('../img/tetris_nesbg.jpg');
-    display: flex;
+    /* background-image: url('../img/tetris_nesbg.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
+#gamearena {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 100px 0 0 -150px;
+}
 
+#bullpen {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  margin: 150px 20px 0 0;
+}
